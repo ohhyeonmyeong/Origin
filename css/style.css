@@ -186,6 +186,8 @@ a{text-decoration: none;}
     transform: translate(-50%, -50%);
 }
 
+footer{display: none;}
+
 /* 반응형 */
 
 @media (max-width:1199px){
@@ -254,6 +256,8 @@ a{text-decoration: none;}
 
     #main section{width: 100%; margin-left: 0;}
 
+    footer{display: none;}
+
 }
 
 @media (max-width:991px){
@@ -296,6 +300,7 @@ a{text-decoration: none;}
 
     #main section article .txt_part span{display: none;}
 
+    footer{display: none;}
 }
 
 @media (max-width:767px){
